@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--External CSS-->
+    <!--
+        //example uses of a full URL to link to a style sheet:
+
+        <link rel="stylesheet" href="https://www.w3scholls.com/html/style.css">
+    -->
+    <!--example links to a style sheet located in the same folder as the current page-->
+    <link rel="stylesheet" href="button.css">
+    <!--internal CSS-->
+
+    <style>
+        h1 {color: white;}
+        h3 {color: blue;}
+
+    </style>
+
+</head>
+<!--Inline CSS-->
+<body style="background-color:powderblue;">
+    <h1 style="background-color:tomato;">SpaceX Headlines</h1>
+    <p id=""demo1">what we found?</p>
+
+    <button type="button" 
+    onclick="document.getElementById('demo').innerHTML = Date()">Hello</button>
+    <p id="demo"></p>
+    <script>
+        function myFunction(){
+            document.getElementById("demo1").style.fontsize ="25px";
+            document.getElementById("demo1").style.color ="red";
+            document.getElementById("demo1").style.backgroundColor  ="yellow";
+
+        }
+    <button type="button" onclick="myFunction()">Hello</button>
+
+
+    </script>
+    <br>
+    <strong>Dear Austronaut,</strong>
+    <br>
+    <br>
+    <b>“Welcome home Crew-4! This international crew has spent nearly six months on the International Space Station conducting science for the benefit of all. Their work aboard the orbiting laboratory will help prepare future explorers for future space missions,” said NASA Administrator Bill Nelson. “Working and living on the space station is the opportunity of a lifetime, but it also requires these explorers to make sacrifices, especially time away from loved ones. Kjell, Bob, Jessica and Samantha, thank you for your contributions over the past six months to science, innovation, and discovery!"</b>
+    <p><i><a href="#C4">SpaceX technology </a></i></p>
+    <img src="spaceX.jpg" alt="falcon dragon launch" width="600" height="300">
+    <br>
+    <p>
+        “You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars.”
+-Elon Musk
+    </p>
+    <div>
+    <h1><a href="https://www.spacex.com/">Visit SpaceX.com</a></h1>
+    <h2><a href="https://www.youtube.com/channel/UCtI0Hodo5o5dUb67FeUjDeA">Visit SpaceX Youtube Channel</a></h2>
+    <h3 id="C4">SpaceX Technology</h3>
+    <h4>test</h4>
+    <h5>test</h5>
+    <h6>test</h6>
+    </div>
+    
+    <a href="https://www.youtube.com/" target="_blank">Link to youtube</a>
+<!--write your code below-->
+    <script type="text/javascript">
+        function displayMsg() { 
+            alert("Hello World!")
+        }
+
+    </script>
+    <h3 style="background-color:violet">Thanks to you for continuing the American Dream & Humanity's Destination ... SpaceX. Thanks for valuing the experience and dedication of our Veterans.</h3>
+</body>
+</html>
+
